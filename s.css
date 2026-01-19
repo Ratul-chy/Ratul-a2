@@ -43,7 +43,7 @@ body{
 }
 .topimg{
     position: absolute;
-    top: 15%;
+    top: 13%;
     left: 39%;
 }
 .mic{
@@ -198,4 +198,79 @@ body{
     margin-top: 12px;
     gap: 10px;
 
+}
+.chead{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.challangecard{
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+    display:flex;
+    align-items: center;
+}
+.challengicon{
+    
+    display: flex;
+    gap: 20px;
+}
+.challengicon img{
+    border: 1px solid #533C72;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+.challengtext{
+    padding-left: 24px;
+}
+.channenghead{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.challengpara{
+    font-size: 1rem;
+    color: #ffffffa8  ;
+    line-height: 24px;
+    font-weight: 200;
+    margin-bottom: 16px;
+    margin-top: 16px;
+
+}
+.foterbanner {
+  position: relative;
+}
+
+.foterimg {
+  position: absolute;
+  top: 28%;
+  left: 43%;
+}
+.fotericon{
+    max-width: 540px;
+    position: absolute;
+    top: 52%;
+    left: 33%;
+}
+.fotericon ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+.fotericon ul li{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #FFFFFF;
+}
+.footercopyright{
+    color: #FFFFFF;
+    position: absolute;
+    top: 66%;
+    left: 38%;
 }
