@@ -73,7 +73,15 @@ body{
     font-size: 18px;
     font-weight: 600;
     box-shadow: 0 3 27 rgba(0, 255, 136, 0.5);
-    animation: forwards ;
+    animation: bouncing 1s ease-in-out infinite ;
+}
+@keyframes bouncing {
+    0%{
+        transform: translateY(0);
+
+    }50%{
+        transform: translateY(-30px);
+    }
 }
 .btext{
     position: absolute;
