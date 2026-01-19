@@ -20,6 +20,9 @@ body{
     color: white;
     background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8) ;
 }
+.hamberger{
+    display: none;
+}
 
 .navitem{
     margin-top: 30px;
@@ -70,7 +73,7 @@ body{
 .btext{
     position: absolute;
     top: 75%;
-    left: 32%;
+    left: 33%;
     align-items: center;
     text-align: center;
 }
@@ -91,6 +94,7 @@ body{
     display: flex;
     gap: 10px;
     align-items: center;
+    margin-top: 24px;
 }
 .b-s{
     display: flex;
@@ -154,9 +158,13 @@ body{
     .bigcol{
         background-color: #351165;
         grid-row: span 2;
-        grid-column: span 1;
+        align-items: center;
         padding: 100px 40px;
         border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
     }
     .bigrow{
         background-color: #351165;
@@ -274,3 +282,7 @@ body{
     top: 66%;
     left: 38%;
 }
+
+
+
+

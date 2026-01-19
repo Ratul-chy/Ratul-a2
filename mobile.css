@@ -1,0 +1,29 @@
+@media screen and (max-width: 576px) {
+    .navbar ul li {
+        display: none;
+    }
+
+    .navbar .btn-main {
+        display: none;
+    }
+    .hamberger {
+        display: block;
+        cursor: pointer; /* optional: makes it clickable */
+    }
+    #line1{
+        width: ;
+    }
+    .topimg{
+        width: 170px;
+        height: 170px;
+        position: absolute;
+        top: 6%;
+        left: 35%;
+    }
+    .mic{
+        width: 45px;
+        height: 70px;
+    position: absolute;
+    top: 28%;
+    left: 37%;
+}
