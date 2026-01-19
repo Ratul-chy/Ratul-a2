@@ -8,10 +8,6 @@
     }
     .hamberger {
         display: block;
-        cursor: pointer; /* optional: makes it clickable */
-    }
-    #line1{
-        width: ;
     }
     .topimg{
         width: 170px;
@@ -26,4 +22,63 @@
     position: absolute;
     top: 28%;
     left: 37%;
+    }
+    .new{
+        border-radius: 50px;
+        position: absolute;
+        top: 10%;
+        left: 55%;
+        }
+    .btext{
+        position: absolute;
+        top: 60%;
+        left: 3%;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 10px;
+        }
+    .banner{
+        max-height: 466px;
+        margin-bottom: 200px;
+    }
+    .p-contain{
+        padding: 40px 20px;
+    
+    }  
+    .p-cardcontainer
+    {
+        padding: 20px 20px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    }  
+    .gridd{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);   
+    }
+    .bigcol{
+        background-color: #351165;
+        align-items: center;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .fc{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    margin: 0 auto;
+    }  
+    .chead{
+        margin-top: 1080px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
 }

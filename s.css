@@ -83,7 +83,7 @@ body{
     font-weight: 900;
 
 }
-.b-text{
+.b-para{
     color: #FFFFFF;
     font-size: 1rem;
     margin-bottom: 10px;
@@ -178,13 +178,12 @@ body{
         border-radius: 10px;
     }
 .fc{
-    
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 380px;
     height: 440px;
     gap: 30px;
-}   
+    }   
 .fhead{
     color: #FFFFFF;
     font-size: 1.5rem;
@@ -282,7 +281,6 @@ body{
     top: 66%;
     left: 38%;
 }
-
 
 
 
