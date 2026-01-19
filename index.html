@@ -9,6 +9,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<style>
+    .gridd{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 30px;
+    }
+    .bigcol{
+        grid-row: span 2;
+    }
+    .bigrow{
+        grid-column: span 2;
+
+    }
+
+</style>
 </head>
 <body class="inter">
     <nav class="navitem">
@@ -72,6 +88,30 @@
                     <h1 style="color: #00FF88;" class="phead">50+</h1>
                     <p class="ptext">Industry Experts</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gridpart">
+        <div class="gwidth">
+            <h1 style="text-align:center;" class="phead">Why Choose TechWave</h1>
+            <div class="gridd">
+                <div class="bigcol">
+                    <img src="assets/headphone.png" alt="">
+                </div>
+                <div class="bigrow">
+                    <img src="assets/device.png" alt="">
+                </div>
+                <div class="bigrow">
+                    <img src="assets/location.png" alt="">
+                </div>
+                <div class="bigrow">
+                    <img src="assets/zap-fast.png" alt="">
+                </div>
+                <div class="">
+                    <img src="assets/resource.png" alt="">
+                </div>
+
             </div>
         </div>
     </section>
