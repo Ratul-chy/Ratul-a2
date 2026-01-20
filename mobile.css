@@ -29,9 +29,12 @@
         top: 10%;
         left: 55%;
         }
+        .b-btn {
+            align-items: center;
+        }
     .btext{
         position: absolute;
-        top: 60%;
+        top: 48%;
         left: 3%;
         align-items: center;
         text-align: center;
@@ -42,9 +45,13 @@
         margin-bottom: 200px;
     }
     .p-contain{
+        margin-top: 100px;
         padding: 40px 20px;
     
-    }  
+    } 
+    .p-text{
+        margin-top: 50px;
+    } 
     .p-cardcontainer
     {
         padding: 20px 20px;
@@ -117,7 +124,7 @@
     width: 150px;
     height: 32px;
   position: absolute;
-  top: 10%;
+  top: 6%;
   left: 39%;
 }
 .fotericon{
@@ -142,7 +149,7 @@
     max-width: 540px;
     position: absolute;
     top: 33%;
-    left: 33%;
+    left: 28%;
 }
 
 }
